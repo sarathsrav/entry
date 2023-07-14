@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ture </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<style>
+    img{
+        margin: 0px;
+        padding: 0px;
+        height: 90vh;
+    }
+    form{
+      margin: 0px;
+      padding: 0px;
+      background-size: cover;
+      height: 100%;
+      width: 100;
+      }
+</style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-gray bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My Ture</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Booking</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contect Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" method="dialog-box">
+         <button class="btn btn-outline-success" type="submit">Login/Signup</button>
+      </form>
+    </div>
+  </div>
+</nav>  
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="SARA.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="BABU (1).jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG_20220706_101315.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="devil (2).jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="card" style="background-color: rgb(253, 246, 246); color: rgb(10, 10, 10);">
+    <div class="card-header">
+      Ture Planning
+    </div>
+    <div class="card-body">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">From</label>
+              <input type="email" class="form-control" id="fromsinput" placeholder="From location">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="input">To</label>
+              <input type="text" class="form-control" id="inputPassword4" placeholder="To location">
+            </div>
+            <div class="form-check col-md-4">
+            <label for="date">Date</label>
+              <input type="date" placeholder="Date">
+            </div>
+            <div class="form-check col-md-2">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Male
+              </label>
+            </div>
+            <div class="form-check col-md-2">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Female
+              </label>
+            </div>
+            <div class="form-check col-md-2">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+              <label class="form-check-label" for="flexRadioDefault3">
+                Transgender
+              </label>
+            </div>
+             <div class="col-md-6">
+              <label for="Numberofpassengers" class="form-label">Number Of passengers</label>
+              <input type="number" class="form-control" id="Numberofpassengers" placeholder="Number">
+            </div>
+             <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose</option>
+                <option>Srikakulam</option>
+                <option>Vizag</option>
+                <option>Chinnasana</option>
+                <option>Kotabommali/option>
+                <option>Narasasnnapeta</option>
+                <option>Tekkali</option>
+                <option>Palasa</option>
+                <option>Mondiraevalasa</option>
+                <option>Nandigam</option>
+                <option>kaputebburu</option>
+                <option>gudivada</option>
+                <option>kothapalli</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip" placeholder="Pin">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" placeholder="Tick">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+          </div>
+          
+
+  
+
+
+    
+</body>
+</html>
